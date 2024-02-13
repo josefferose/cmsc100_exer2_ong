@@ -1,0 +1,71 @@
+
+/* basic information and projects section */
+.header {
+    text-align: center;
+    color: #944E63;
+}
+
+h2 {
+    text-align: center;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.body {
+    background-color: #FFE7E7;
+    color:  #FFE7E7;
+}
+
+.info {
+    text-align: center;
+    background-color: #B47B84;
+    border-radius: 10px;
+}
+
+
+/* skill && autobiography section */
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: justify; 
+    border-radius: 10px;
+}
+
+.item {
+    width: 50%;
+    background-color: #B47B84;
+    border-radius:10px;
+  }
+
+.item span{
+    margin: auto;
+}
+
+
+/* footer section */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    text-align: justify;
+    justify-content: center;
+    
+}
+
+.logoPic{
+    border-radius: 90%;
+}
+
+.end{
+    color: #944E63;
+    
+}
